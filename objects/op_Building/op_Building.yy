@@ -1,15 +1,22 @@
 {
   "$GMObject":"",
   "%Name":"op_Building",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"op_Building",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"op_Actor","path":"objects/op_Actor/op_Actor.yy",},"propertyId":{"name":"maxHp","path":"objects/op_Actor/op_Actor.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1000",},
+  ],
   "parent":{
     "name":"Buildings",
-    "path":"folders/Objects/Buildings.yy",
+    "path":"folders/Objects/Actors/Buildings.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"op_Actor",
+    "path":"objects/op_Actor/op_Actor.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

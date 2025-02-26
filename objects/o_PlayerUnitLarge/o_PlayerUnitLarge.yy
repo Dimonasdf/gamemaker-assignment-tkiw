@@ -9,7 +9,7 @@
   ],
   "parent":{
     "name":"PlayerUnits",
-    "path":"folders/Objects/Units/PlayerUnits.yy",
+    "path":"folders/Objects/Actors/Units/PlayerUnits.yy",
   },
   "parentObjectId":{
     "name":"op_PlayerUnit",

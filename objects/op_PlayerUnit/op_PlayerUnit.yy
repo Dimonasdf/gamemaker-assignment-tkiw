@@ -8,11 +8,11 @@
   "managed":true,
   "name":"op_PlayerUnit",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"op_Unit","path":"objects/op_Unit/op_Unit.yy",},"propertyId":{"name":"isFriendly","path":"objects/op_Unit/op_Unit.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"op_Actor","path":"objects/op_Actor/op_Actor.yy",},"propertyId":{"name":"faction","path":"objects/op_Actor/op_Actor.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
   ],
   "parent":{
     "name":"PlayerUnits",
-    "path":"folders/Objects/Units/PlayerUnits.yy",
+    "path":"folders/Objects/Actors/Units/PlayerUnits.yy",
   },
   "parentObjectId":{
     "name":"op_Unit",

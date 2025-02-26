@@ -1,1 +1,2 @@
-instance_create_layer(x, y, layer, o_EnemyUnitMedium);
+alarm[0] = 60;
+alarm[1] = 60 * 10;

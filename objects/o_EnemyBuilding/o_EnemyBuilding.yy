@@ -4,10 +4,12 @@
   "eventList":[],
   "managed":true,
   "name":"o_EnemyBuilding",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"op_Actor","path":"objects/op_Actor/op_Actor.yy",},"propertyId":{"name":"faction","path":"objects/op_Actor/op_Actor.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
+  ],
   "parent":{
     "name":"Buildings",
-    "path":"folders/Objects/Buildings.yy",
+    "path":"folders/Objects/Actors/Buildings.yy",
   },
   "parentObjectId":{
     "name":"op_Building",

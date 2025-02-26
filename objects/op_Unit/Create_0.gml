@@ -1,4 +1,4 @@
-currentClassData = global.UnitsDefinition[isFriendly ? 1 : 0][class];
+currentClassData = global.UnitsDefinition[faction][class];
 InitializeFromUnitData(currentClassData);
 
 InitializeInstance();
@@ -12,10 +12,9 @@ InitializeInstance();
 /// @param		{UnitData}	_classData
 function InitializeFromUnitData(_classData)
 {
-	var currentClassData = _classData;
-	
 	maxHp = _classData.startHp;
 	damage = _classData.startDamage;
+	currentSpeed = _classData.startSpeed;
 }
 
 function InitializeInstance()
@@ -26,5 +25,7 @@ function InitializeInstance()
 	image_yscale = currentClassData.scale.Y;
 	
 	speed = currentSpeed;
+	
+	isFriendly = faction == Faction.Player;
 	direction = isFriendly ? 0 : 180;
 }

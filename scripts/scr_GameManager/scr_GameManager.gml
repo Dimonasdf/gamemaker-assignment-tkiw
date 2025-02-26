@@ -4,24 +4,28 @@ function OnRoomCreate()
 	
 	InitializeDefinitions();
 
-	show_debug_message(global.UnitsDefinition[0][2]);
+	show_debug_message(global.UnitsDefinition[Faction.Player][UnitClass.Medium]);
 }
 
 function InitializeDefinitions()
 {
 	global.UnitsDefinition =
 	[
+		// Faction.None
 		[
-			// PlayerUnits
-			new UnitData(UnitClass.Small, 1, 1, new Vector2(1, 1)),
-			new UnitData(UnitClass.Medium, 4, 2, new Vector2(2, 0.5)),
-			new UnitData(UnitClass.Large, 9, 3, new Vector2(1, 2)),
+	
 		],
+		// Faction.Player
 		[
-			// EnemyUnits
-			new UnitData(UnitClass.Small, 1, 1, new Vector2(1, 1)),
-			new UnitData(UnitClass.Medium, 3, 2, new Vector2(2, 0.5)),
-			new UnitData(UnitClass.Large, 8, 3, new Vector2(1, 2)),
-		]	
+			new UnitData(UnitClass.Small,	1, 1, new Vector2(1, 1),	3),
+			new UnitData(UnitClass.Medium,	4, 2, new Vector2(2, 0.5),	2.5),
+			new UnitData(UnitClass.Large,	9, 3, new Vector2(1, 2),	2),
+		],
+		// Faction.Enemy
+		[
+			new UnitData(UnitClass.Small,	1, 1, new Vector2(1, 1),	3),
+			new UnitData(UnitClass.Medium,	3, 2, new Vector2(2, 0.5),	2.5),
+			new UnitData(UnitClass.Large,	8, 3, new Vector2(1, 2),	2),
+		]
 	];
 }

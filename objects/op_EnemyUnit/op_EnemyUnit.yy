@@ -3,14 +3,15 @@
   "%Name":"op_EnemyUnit",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"op_PlayerUnit","path":"objects/op_PlayerUnit/op_PlayerUnit.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"o_PlayerBuilding","path":"objects/o_PlayerBuilding/o_PlayerBuilding.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"op_EnemyUnit",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"op_Actor","path":"objects/op_Actor/op_Actor.yy",},"propertyId":{"name":"faction","path":"objects/op_Actor/op_Actor.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
+  ],
   "parent":{
     "name":"EnemyUnits",
-    "path":"folders/Objects/Units/EnemyUnits.yy",
+    "path":"folders/Objects/Actors/Units/EnemyUnits.yy",
   },
   "parentObjectId":{
     "name":"op_Unit",
