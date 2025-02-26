@@ -5,7 +5,7 @@
   "managed":true,
   "name":"o_EnemyUnitLarge",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"op_Unit","path":"objects/op_Unit/op_Unit.yy",},"propertyId":{"name":"maxHp","path":"objects/op_Unit/op_Unit.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"8",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"op_Unit","path":"objects/op_Unit/op_Unit.yy",},"propertyId":{"name":"class","path":"objects/op_Unit/op_Unit.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
   ],
   "parent":{
     "name":"EnemyUnits",
