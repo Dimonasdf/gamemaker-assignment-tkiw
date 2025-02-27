@@ -1,9 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"op_Button",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"op_Button",
   "overriddenProperties":[],
@@ -28,6 +26,7 @@
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"label_name","filters":[],"listItems":[],"multiselect":false,"name":"label_name","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":2,},
     {"$GMObjectProperty":"v1","%Name":"label_price","filters":[],"listItems":[],"multiselect":false,"name":"label_price","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"99","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"isActive","filters":[],"listItems":[],"multiselect":false,"name":"isActive","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

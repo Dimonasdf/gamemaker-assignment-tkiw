@@ -2,15 +2,22 @@ enemiesSpawned++;
 
 if (enemiesSpawned % 25 == 0)
 {
-	instance_create_layer(x, y, layer, o_EnemyUnitLarge);
+	SpawnEnemyUnit(UnitClass.Large);
 }
 else if (enemiesSpawned % 10 == 0)
 {
-	instance_create_layer(x, y, layer, o_EnemyUnitMedium);
+	SpawnEnemyUnit(UnitClass.Medium);
 }
 else
 {
-	instance_create_layer(x, y, layer, o_EnemyUnitSmall);	
+	SpawnEnemyUnit(UnitClass.Small);	
 }
 
 alarm[0] = 60;
+
+
+
+function SpawnEnemyUnit(_unitClass)
+{
+	instance_create_layer(x, y, layer, global.UnitsObjects[Faction.Enemy][_unitClass]);
+}
