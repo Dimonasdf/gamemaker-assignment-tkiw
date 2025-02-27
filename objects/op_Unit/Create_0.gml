@@ -16,7 +16,7 @@ InitializeInstance();
 function InitializeFromUnitData(_classData)
 {
 	maxHp = _classData.startHp;
-	damage = _classData.startDamage;
+	currentDamage = _classData.startDamage;
 	currentSpeed = _classData.startSpeed;
 }
 

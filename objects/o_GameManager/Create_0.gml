@@ -38,3 +38,33 @@ global.UnitsObjects =
 		o_EnemyUnitLarge
 	]
 ]
+
+global.UnitsNames =
+[
+	// Faction.None
+	[
+	
+	],
+	// Faction.Player
+	[
+		"Player Small Unit",
+		"Player Medium Unit",
+		"Player Large Unit"
+	],															 
+	// Faction.Enemy											 
+	[															 
+		"Enemy Small Unit",
+		"Enemy Medium Unit",
+		"Enemy Large Unit"
+	]
+]
+
+global.BuildingNames =
+[
+	// Faction.None
+	"",
+	// Faction.Player
+	"Player Building",													 
+	// Faction.Enemy											 
+	"Enemy Building"
+]

@@ -54,6 +54,7 @@
     {"id":{"name":"o_EnemyUnitSmall","path":"objects/o_EnemyUnitSmall/o_EnemyUnitSmall.yy",},},
     {"id":{"name":"o_EnemyUnitsSpawnPoint","path":"objects/o_EnemyUnitsSpawnPoint/o_EnemyUnitsSpawnPoint.yy",},},
     {"id":{"name":"o_GameManager","path":"objects/o_GameManager/o_GameManager.yy",},},
+    {"id":{"name":"o_HoverHint","path":"objects/o_HoverHint/o_HoverHint.yy",},},
     {"id":{"name":"o_HPBarBackground","path":"objects/o_HPBarBackground/o_HPBarBackground.yy",},},
     {"id":{"name":"o_HPBarFill","path":"objects/o_HPBarFill/o_HPBarFill.yy",},},
     {"id":{"name":"o_PlayerBuilding","path":"objects/o_PlayerBuilding/o_PlayerBuilding.yy",},},
