@@ -1,4 +1,4 @@
-function OnRoomCreate()
+function OnRoomStart()
 {
 	show_debug_message("Room Created");
 	
@@ -7,8 +7,12 @@ function OnRoomCreate()
 	show_debug_message(global.UnitsDefinition[Faction.Player][UnitClass.Medium]);
 }
 
+
 function InitializeDefinitions()
 {
+	global.Currency = 100;
+	
+	// are values created once?
 	global.UnitsDefinition =
 	[
 		// Faction.None
