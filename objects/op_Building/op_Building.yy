@@ -10,9 +10,10 @@
   "name":"op_Building",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"op_Actor","path":"objects/op_Actor/op_Actor.yy",},"propertyId":{"name":"maxHp","path":"objects/op_Actor/op_Actor.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1000",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"op_Actor","path":"objects/op_Actor/op_Actor.yy",},"propertyId":{"name":"hpBarOffsetY","path":"objects/op_Actor/op_Actor.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"-320",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"op_Actor","path":"objects/op_Actor/op_Actor.yy",},"propertyId":{"name":"hpBarOffsetY","path":"objects/op_Actor/op_Actor.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"-330",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"op_Actor","path":"objects/op_Actor/op_Actor.yy",},"propertyId":{"name":"hpBarScaleX","path":"objects/op_Actor/op_Actor.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"288",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"op_Actor","path":"objects/op_Actor/op_Actor.yy",},"propertyId":{"name":"hpBarScaleY","path":"objects/op_Actor/op_Actor.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"32",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"op_Actor","path":"objects/op_Actor/op_Actor.yy",},"propertyId":{"name":"hpBarOffsetX","path":"objects/op_Actor/op_Actor.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"-144",},
   ],
   "parent":{
     "name":"Buildings",

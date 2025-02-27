@@ -6,6 +6,7 @@
   "name":"o_EnemyUnitMedium",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"op_Unit","path":"objects/op_Unit/op_Unit.yy",},"propertyId":{"name":"class","path":"objects/op_Unit/op_Unit.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"op_Actor","path":"objects/op_Actor/op_Actor.yy",},"propertyId":{"name":"hpBarOffsetY","path":"objects/op_Actor/op_Actor.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"-64",},
   ],
   "parent":{
     "name":"EnemyUnits",
