@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"o_GameManager",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"o_HPBarBackground",
+  "eventList":[],
   "managed":true,
-  "name":"o_GameManager",
+  "name":"o_HPBarBackground",
   "overriddenProperties":[],
   "parent":{
-    "name":"Managers",
-    "path":"folders/Objects/Managers.yy",
+    "name":"HPBar",
+    "path":"folders/Objects/UI/HPBar.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"s_WhitePixel",
+    "path":"sprites/s_WhitePixel/s_WhitePixel.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
