@@ -1,3 +1,3 @@
 global.Currency++;
 
-alarm[0] = 60;
+alarm[0] = 60 * currencyAcquisitionSeconds;

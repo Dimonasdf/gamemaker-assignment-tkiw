@@ -78,6 +78,7 @@
     {"id":{"name":"op_PlayerUnit","path":"objects/op_PlayerUnit/op_PlayerUnit.yy",},},
     {"id":{"name":"op_Unit","path":"objects/op_Unit/op_Unit.yy",},},
     {"id":{"name":"Gameplay","path":"rooms/Gameplay/Gameplay.yy",},},
+    {"id":{"name":"scr_CircularProgressBar","path":"scripts/scr_CircularProgressBar/scr_CircularProgressBar.yy",},},
     {"id":{"name":"scr_Constructors","path":"scripts/scr_Constructors/scr_Constructors.yy",},},
     {"id":{"name":"scr_Functions","path":"scripts/scr_Functions/scr_Functions.yy",},},
     {"id":{"name":"s_ArtifactCore","path":"sprites/s_ArtifactCore/s_ArtifactCore.yy",},},
