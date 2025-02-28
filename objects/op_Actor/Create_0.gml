@@ -1,3 +1,4 @@
+isMouseHovered = false;
 
 function SetHP(_newHP)
 {

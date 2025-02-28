@@ -1,4 +1,6 @@
 
+randomize();
+
 global.UnitsDefinition =
 [
 	// Faction.None
@@ -68,3 +70,16 @@ global.BuildingNames =
 	// Faction.Enemy											 
 	"Enemy Building"
 ]
+
+global.ArtifactsData =
+[
+	new ArtifactData(0, o_Artifact_0, "Lucky Kill", "Get a chance to aquire resources when killing an enemy unit"),
+	new ArtifactData(1, o_Artifact_1, "Bomberman", "Your medium unit explodes on death, dealing damage to ALL units around"),
+	new ArtifactData(2, o_Artifact_2, "For the King", "Your units deal additional damage to Building in amount of their remaining health"),
+	new ArtifactData(3, o_Artifact_3, "Berserk", "Your large units deal double damage but injure themselves with each hit"),
+	new ArtifactData(4, o_Artifact_4, "Little by Little", "Each time a number of your small units die, enemy Building gets damaged a little"),
+	new ArtifactData(5, o_Artifact_5, "Power Shift", "When medium or large enemy unit dies, one of your units gets double damage"),
+	new ArtifactData(6, o_Artifact_6, "Muscle Tax", "When your lighter unit defeats a larger enemy unit, you get resources")
+]
+
+global.MouseHoverCount = 0;

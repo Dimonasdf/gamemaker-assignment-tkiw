@@ -1,1 +1,2 @@
-SetHoverHintText("");
+isMouseHovered = false;
+MouseHoverExit();

@@ -23,6 +23,14 @@ function UnitData(_class, _startHp, _startDamage, _scale, _startSpeed, _price) c
 	price = _price;
 }
 
+function ArtifactData(_index, _object, _name, _description) constructor
+{
+	index = _index;
+	object = _object;
+	name = _name;
+	description = _description;
+}
+
 function Vector2(_x = 0, _y = 0) constructor
 {
     X = _x;
