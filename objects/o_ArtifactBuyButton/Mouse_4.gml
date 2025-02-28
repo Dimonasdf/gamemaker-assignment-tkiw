@@ -1,4 +1,7 @@
-if (isActive && TrySpend(price))
+if (isActive && TrySpend(label_price))
 {
-	o_ArtifactContainer.TrySpawnArtifact();	
+	o_ArtifactContainer.TrySpawnArtifact();
+	
+	isCooldown = true;
+	alarm[0] = 60 * cooldownSeconds;
 }
