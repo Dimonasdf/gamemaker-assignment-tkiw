@@ -13,6 +13,7 @@ function OnCorrectUnitDestroyed()
 	
 		instance_find(op_PlayerUnit, instanceToModify).currentDamage *= damageMultiplier;
 	
-		//show_debug_message("Artifact 5 Triggered");
+		if (showDebugMessage)
+			show_debug_message("Artifact 5 Triggered");
 	}
 }

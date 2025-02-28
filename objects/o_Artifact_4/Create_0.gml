@@ -16,7 +16,8 @@ function OnUnitDestroyed()
 			o_EnemyBuilding.TakeDamage(damageToBuilding);
 			currentNumberOfUnits = 0;
 			
-			//show_debug_message("Artifact 4 Triggered");
+			if (showDebugMessage)
+				show_debug_message("Artifact 4 Triggered");
 		}
 	}
 }

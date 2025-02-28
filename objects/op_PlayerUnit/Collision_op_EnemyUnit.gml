@@ -5,34 +5,27 @@ if (other.faction == 0)
 else if (faction != other.faction)
 {
 	var enemyWasKilled = false;
+	var enemyClass = other.class;
 
-	var artifactObject = global.ArtifactsData[3].object;
-	if (instance_exists(artifactObject) && artifactObject.targetUnitClass == class)
+	var artifactObject3 = global.ArtifactsData[3].object;
+	if (instance_exists(artifactObject3) && artifactObject3.targetUnitClass == class)
 	{
-		enemyWasKilled = other.TakeDamage(currentDamage * artifactObject.damageMultiplier);
-		TakeDamage(artifactObject.selfDamage);
-			
-		//show_debug_message("Artifact 3 Triggered");
+		// this is not as refined as it could have been
+		enemyWasKilled = artifactObject3.ProcessDamageEvent(id, other, currentDamage);
 	}
 	else
 	{
 		enemyWasKilled = other.TakeDamage(currentDamage);
 	}
-	
-	if (enemyWasKilled && instance_exists(global.ArtifactsData[0].object))
+
+	if (enemyWasKilled)
 	{
-		// for some reason event can not be found when we use
-		// "global.ArtifactsData[0].object" reference here
-		// this is a tech debt, but not a major issue
-		with (o_Artifact_0)
-		{
-			event_user(0);
-		}
+		var artifactObject0 = global.ArtifactsData[0].object;
+		if (instance_exists(artifactObject0))
+			artifactObject0.OnEnemyKilled();
+
+		var artifactObject6 = global.ArtifactsData[6].object;
+		if (instance_exists(artifactObject6))
+			artifactObject6.ProcessKillEvent(class, enemyClass);
 	}
 }
-
-
-
-// is this an actual way to check that current object is an instance of asset object?
-//var artifactAffectedUnit = global.UnitsObjects[Faction.Player][artifactObject.targetUnitClass];
-//if (instance_exists(artifactAffectedUnit) && object_index == artifactAffectedUnit.object_index)
