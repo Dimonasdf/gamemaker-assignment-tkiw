@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
   "%Name":"o_Artifact_5",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"o_Artifact_5",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_ArtifactUI","path":"objects/o_ArtifactUI/o_ArtifactUI.yy",},"propertyId":{"name":"artifactIndex","path":"objects/o_ArtifactUI/o_ArtifactUI.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
-  ],
+  "overriddenProperties":[],
   "parent":{
     "name":"Artifacts",
     "path":"folders/Objects/Artifacts.yy",
