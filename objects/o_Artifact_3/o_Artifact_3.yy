@@ -4,9 +4,7 @@
   "eventList":[],
   "managed":true,
   "name":"o_Artifact_3",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_ArtifactUI","path":"objects/o_ArtifactUI/o_ArtifactUI.yy",},"propertyId":{"name":"artifactIndex","path":"objects/o_ArtifactUI/o_ArtifactUI.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
-  ],
+  "overriddenProperties":[],
   "parent":{
     "name":"Artifacts",
     "path":"folders/Objects/Artifacts.yy",
@@ -28,7 +26,11 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"targetUnitClass","filters":[],"listItems":[],"multiselect":false,"name":"targetUnitClass","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"damageMultiplier","filters":[],"listItems":[],"multiselect":false,"name":"damageMultiplier","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"selfDamage","filters":[],"listItems":[],"multiselect":false,"name":"selfDamage","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

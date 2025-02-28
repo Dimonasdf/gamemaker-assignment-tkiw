@@ -4,7 +4,26 @@ if (other.faction == 0)
 }
 else if (faction != other.faction)
 {
-	var enemyWasKilled = other.TakeDamage(currentDamage);
+	var enemyWasKilled = false;
+
+	if (instance_exists(global.ArtifactsData[3].object))
+	{	
+		var artifactObject = global.ArtifactsData[3].object;
+		
+		// is this an actual way to check that current object is an instance of asset object?
+		var artifactAffectedUnit = global.UnitsObjects[Faction.Player][artifactObject.targetUnitClass];
+		if (instance_exists(artifactAffectedUnit) && object_index == artifactAffectedUnit.object_index)
+		{
+			enemyWasKilled = other.TakeDamage(currentDamage * artifactObject.damageMultiplier);
+			TakeDamage(artifactObject.selfDamage);
+			
+			//show_debug_message("Artifact 3 Triggered");
+		}
+	}
+	else
+	{
+		enemyWasKilled = other.TakeDamage(currentDamage);
+	}
 	
 	if (enemyWasKilled && instance_exists(global.ArtifactsData[0].object))
 	{
