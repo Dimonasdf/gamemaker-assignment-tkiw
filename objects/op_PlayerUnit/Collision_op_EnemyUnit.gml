@@ -8,8 +8,8 @@ else if (faction != other.faction)
 	
 	if (enemyWasKilled && instance_exists(global.ArtifactsData[0].object))
 	{
-		// for some reason event would not be found
-		// if we used proper "global.ArtifactsData[0].object" reference
+		// for some reason event can not be found when we use
+		// "global.ArtifactsData[0].object" reference here
 		// this is a tech debt, but not a major issue
 		with (o_Artifact_0)
 		{

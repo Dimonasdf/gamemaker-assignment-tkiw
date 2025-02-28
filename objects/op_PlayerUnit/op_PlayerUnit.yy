@@ -3,6 +3,7 @@
   "%Name":"op_PlayerUnit",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"op_EnemyUnit","path":"objects/op_EnemyUnit/op_EnemyUnit.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"op_Building","path":"objects/op_Building/op_Building.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"op_PlayerUnit",
