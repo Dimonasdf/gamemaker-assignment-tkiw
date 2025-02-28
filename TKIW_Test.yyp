@@ -72,6 +72,7 @@
     {"id":{"name":"o_PlayerUnitsSpawnPoint","path":"objects/o_PlayerUnitsSpawnPoint/o_PlayerUnitsSpawnPoint.yy",},},
     {"id":{"name":"o_UnitBuyButton","path":"objects/o_UnitBuyButton/o_UnitBuyButton.yy",},},
     {"id":{"name":"op_Actor","path":"objects/op_Actor/op_Actor.yy",},},
+    {"id":{"name":"op_Artifact","path":"objects/op_Artifact/op_Artifact.yy",},},
     {"id":{"name":"op_Building","path":"objects/op_Building/op_Building.yy",},},
     {"id":{"name":"op_Button","path":"objects/op_Button/op_Button.yy",},},
     {"id":{"name":"op_EnemyUnit","path":"objects/op_EnemyUnit/op_EnemyUnit.yy",},},

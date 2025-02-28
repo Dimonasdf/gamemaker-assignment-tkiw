@@ -11,7 +11,10 @@
     "name":"Artifacts",
     "path":"folders/Objects/Artifacts.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"op_Artifact",
+    "path":"objects/op_Artifact/op_Artifact.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

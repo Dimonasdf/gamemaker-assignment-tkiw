@@ -9,8 +9,9 @@ maxArtifactsX = 5;
 availableArtifacts = ds_stack_create();
 purchasedArtifacts = ds_list_create();
 
-PopulateAvailableArtifacts();
-
+// TODO restore
+//PopulateAvailableArtifacts();
+PopulateAvailableArtifactsDebug();
 
 
 //==//
@@ -28,6 +29,15 @@ function PopulateAvailableArtifacts()
 	for(var i = 0; i < artifactsCount; i++)
 	{
 		ds_stack_push(availableArtifacts, shuffleArray[i]);
+	}
+}
+
+function PopulateAvailableArtifactsDebug()
+{
+	var artifactsCount = array_length(global.ArtifactsData);
+	for(var i = artifactsCount - 1; i >= 0; i--)
+	{
+		ds_stack_push(availableArtifacts, i);
 	}
 }
 

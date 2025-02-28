@@ -1,20 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"o_Artifact_1",
-  "eventList":[],
-  "managed":true,
-  "name":"o_Artifact_1",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_ArtifactUI","path":"objects/o_ArtifactUI/o_ArtifactUI.yy",},"propertyId":{"name":"artifactIndex","path":"objects/o_ArtifactUI/o_ArtifactUI.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
+  "%Name":"op_Artifact",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
+  "managed":true,
+  "name":"op_Artifact",
+  "overriddenProperties":[],
   "parent":{
     "name":"Artifacts",
     "path":"folders/Objects/Artifacts.yy",
   },
-  "parentObjectId":{
-    "name":"op_Artifact",
-    "path":"objects/op_Artifact/op_Artifact.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
