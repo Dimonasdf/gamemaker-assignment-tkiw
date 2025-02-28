@@ -1,3 +1,5 @@
+event_inherited()
+
 data = global.UnitsDefinition[Faction.Player][unitClass];
 
 label_hp = data.startHp;

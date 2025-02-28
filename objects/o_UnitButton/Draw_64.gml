@@ -1,44 +1,13 @@
-//button is 16x16 * scale 32x3.5
-var runningX = x - 256;
-var iconWidth = 24;
-var unionWidth = 48;
+event_inherited()
 
-// Sets the draw colour and alpha.
-draw_set_colour(c_black);
-draw_set_alpha(1);
-
-// Sets the heading font.
-draw_set_font(fnt_fjord_one);
-
-// Sets the text alighnment.
-//draw_set_halign(fa_center);
-draw_set_valign(fa_middle);
-
-// margin
-runningX += 16;
+runningX = x - halfButtonWidth + leftMargin;
 
 draw_text(runningX, y, label_name);
-runningX += 240;
+runningX += nameWidth;
 
-// hp
-draw_sprite(s_HP, 0, runningX, y);
-runningX += iconWidth;
+RenderStat(s_HP, label_hp);
+RenderStat(s_Damage, label_damage);
 
-draw_text(runningX, y, label_hp);
-runningX += unionWidth;
+runningX += pricePadding;
 
-// damage
-draw_sprite(s_Damage, 0, runningX, y);
-runningX += iconWidth;
-
-draw_text(runningX, y, label_damage);
-runningX += unionWidth;
-
-// price offset
-runningX += 24;
-
-// price
-draw_sprite(s_Currency, 0, runningX, y);
-runningX += iconWidth;
-
-draw_text(runningX, y, label_price);
+RenderStat(s_Currency, label_price);

@@ -7,8 +7,5 @@ function OnRoomStart()
 
 function SetHoverHintText(_string)
 {	
-	// why wouldn't this be possible?
-	//str_hoverHint.text = _string;
-	
 	o_HoverHint.label_hint = _string;
 }
