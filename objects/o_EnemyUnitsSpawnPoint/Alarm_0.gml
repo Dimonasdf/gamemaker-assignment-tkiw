@@ -19,5 +19,5 @@ alarm[0] = 60;
 
 function SpawnEnemyUnit(_unitClass)
 {
-	instance_create_layer(x, y, layer, global.UnitsObjects[Faction.Enemy][_unitClass]);
+	instance_create_layer(x, y, layer, global.UnitsData[Faction.Enemy][_unitClass].object);
 }

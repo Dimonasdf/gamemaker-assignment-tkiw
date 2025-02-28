@@ -11,6 +11,9 @@ pricePadding = 24;
 
 runningX = 0;
 
+colorActive = c_white;
+colorHovered = #F2F2F2;
+colorInactive = c_ltgray;
 
 //==//
 

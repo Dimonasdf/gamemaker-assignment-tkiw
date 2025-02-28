@@ -13,11 +13,13 @@ enum UnitClass
 }
 
 // poor man's struct
-function UnitData(_class, _startHp, _startDamage, _scale, _startSpeed, _price) constructor
+function UnitData(_class, _startHp, _startDamage, _object, _name, _scale, _startSpeed, _price) constructor
 {
 	class = _class;
 	startHp = _startHp;
 	startDamage = _startDamage;
+	object = _object;
+	name = _name;
 	scale = _scale;
 	startSpeed = _startSpeed;
 	price = _price;

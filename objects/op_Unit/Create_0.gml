@@ -1,6 +1,6 @@
 event_inherited()
 
-currentClassData = global.UnitsDefinition[faction][class];
+currentClassData = global.UnitsData[faction][class];
 InitializeFromUnitData(currentClassData);
 
 InitializeInstance();
@@ -10,11 +10,7 @@ InitializeInstance();
 // === //
 
 
-/// @function				InitializeFromUnitData(_classData);
-/// @param		{UnitData}	_classData
-
 // can custom parameters be strongly typed?
-
 function InitializeFromUnitData(_classData)
 {
 	maxHp = _classData.startHp;

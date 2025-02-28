@@ -1,6 +1,6 @@
 event_inherited()
 
-data = global.UnitsDefinition[Faction.Player][unitClass];
+data = global.UnitsData[Faction.Player][unitClass];
 
 label_hp = data.startHp;
 label_damage = data.startDamage;

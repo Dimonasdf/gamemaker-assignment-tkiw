@@ -1,2 +1,2 @@
 
-image_blend = isActive ? c_white : c_ltgray;
+image_blend = isActive ? (isHovered ? colorHovered : colorActive) : colorInactive;

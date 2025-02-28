@@ -9,9 +9,8 @@ maxArtifactsX = 5;
 availableArtifacts = ds_stack_create();
 purchasedArtifacts = ds_list_create();
 
-// TODO restore
-//PopulateAvailableArtifacts();
-PopulateAvailableArtifactsDebug();
+PopulateAvailableArtifacts();
+//PopulateAvailableArtifactsDebug();
 
 
 //==//
